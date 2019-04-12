@@ -1,0 +1,63 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  margin: auto;
+  max-width: 800px;
+  float:left
+}
+
+h1 {
+  color: #1C7ABF;
+  font-family: 'Lobster Two', cursive;
+  font-size: 1cm;
+}
+
+.skill, .prj1, .prj2, .prj3, .prj4 {
+  width: 50%;
+  
+}
+
+.projects {
+  display: flex
+}
+
+.contact {
+  color: #71A5D6;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  border-radius: 3px;
+  margin: 0em, 0.5em;
+}
+div {
+  border-style: inset;
+  border-width: 1px;
+  border-radius: 10px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.summary, h5{
+  color: #424279;
+}
+
+h2{
+  font-family: 'Lobster Two', cursive;
+  color: #67ADD9;
+}
+
+h3{
+  color: #71A5D6;
+}
+
+h4{
+  color: #9DD0DA
+}
+
+.skills{
+}
+
+/* light to dark
+F6F6F8
+9DD0DA
+71A5D6
+67ADD9
+1C7ABF */
