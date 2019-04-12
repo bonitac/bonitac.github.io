@@ -2,7 +2,6 @@ body{
   font-family: 'Nunito', sans-serif;
   margin: auto;
   max-width: 800px;
-  float:left
 }
 
 h1 {
@@ -13,7 +12,8 @@ h1 {
 
 .skill, .prj1, .prj2, .prj3, .prj4 {
   width: 50%;
-  
+  float:left
+
 }
 
 .projects {
