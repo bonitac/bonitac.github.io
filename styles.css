@@ -21,10 +21,12 @@ h1 {
   margin: 0px;
 }
 
-.summary, h5, .edu {
+.summary, h5, .edu, .employment {
   padding: 0.5em;
   margin: 0px;
 }
+
+
 
 .prj{
   position: relative;
@@ -67,7 +69,7 @@ h1 {
 
 div {
   border-style: inset;
-  border-width: 1px;
+  border-width: 2px;
   border-radius: 5px;
   border-color: rgb(209, 239, 253);
 }
@@ -80,6 +82,7 @@ h2{
 
 h3{
   color: #71A5D6;
+  margin: 0em;
 }
 
 .container{
