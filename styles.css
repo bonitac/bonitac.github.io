@@ -45,7 +45,7 @@ h1 {
   height:100%;
   position:absolute;
   opacity: 100%;
-  top:10px;
+  top:0;
   left:0;
   display:inline-block;
   -webkit-box-sizing:border-box;
