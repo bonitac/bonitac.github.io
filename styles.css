@@ -24,7 +24,7 @@ h1 {
 
 .summary, .skill, .prj, .edu, .employment, h4, h3, h5 {
   padding: 5px;
-  margin: 2px;
+  margin: 1px 2px 2px;
 }
 
 .prj-content, .education{
@@ -66,6 +66,7 @@ h5{
 .projects {
   display: flex;
   border-style: none;
+  margin: 1px 2px;
 }
 
 
@@ -81,8 +82,8 @@ div {
 h2{
   font-family: 'Lobster Two', cursive;
   color: #027BCE;
-  margin: 2px;
-  font-size: 2em;
+  margin: 1px 2px 2px;
+  font-size: 1.85em;
 }
 
 h3{
