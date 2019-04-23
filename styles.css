@@ -3,8 +3,14 @@ body{
   margin: auto;
   max-width: 900px;
   color: #00487C;
-  line-height: 1.5
+  line-height: 1.5;
   /* color: #3E6680 */
+  background-color: #F6F9FC
+}
+
+.icon{
+  width: 25px;
+  src: "https://img.icons8.com/nolan/64/000000/school.png"
 }
 
 h1 {
