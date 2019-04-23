@@ -5,12 +5,11 @@ body{
   color: #00487C;
   line-height: 1.5;
   /* color: #3E6680 */
-  background-color: #F6F9FC
+  /* background-color: #F6F9FC */
 }
 
 .icon{
   width: 25px;
-  height: 100%;
 }
 
 h1 {
