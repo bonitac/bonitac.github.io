@@ -2,39 +2,42 @@ body{
   font-family: 'Lato', sans-serif;
   margin: auto;
   max-width: 900px;
-  color: #424279;
-  background-color:#d7deeb;
+  color: #00487C;
+  line-height: 1.5
+  /* color: #3E6680 */
 }
 
 h1 {
-  color: #1C7ABF;
+  color: #0496FF;
   font-family: 'Lobster Two', cursive;
   font-size: 1.5cm;
   margin: 0px;
 }
 
-.contact {
+.container-background {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: rgb(209, 239, 253);
   border-radius: 3px;
   margin: 0px;
 }
 
-.summary, h5, .edu, .employment {
-  padding: 0.5em;
-  margin: 0px;
+.summary, .skill, .prj, .edu, .employment, h4, h3, h5 {
+  padding: 5px;
+  margin: 2px;
 }
 
+.prj-content, .education{
+  border-style:none;
+}
 
+h5{
+  font-size: 0.92em;
+}
 
 .prj{
   position: relative;
   display: inline-block;
-}
-
-.prj-content{
-  z-index: 10;
 }
 
 .overlay{
@@ -57,8 +60,7 @@ h1 {
 .skill, .prj {
   width: 50%;
   float:left;
-  margin: 2px;
-  padding: 7px;
+  
 }
 
 .projects {
@@ -68,20 +70,23 @@ h1 {
 
 
 div {
-  border-style: inset;
+  border-style: double;
   border-width: 2px;
-  border-radius: 5px;
+  border-radius: 3px;
   border-color: rgb(209, 239, 253);
+  margin: 0px 2px 2px 0px;
+  padding: 2px;
 }
 
 h2{
   font-family: 'Lobster Two', cursive;
-  color: #67ADD9;
+  color: #027BCE;
   margin: 2px;
+  font-size: 2em;
 }
 
 h3{
-  color: #71A5D6;
+  color: #4BB3FD;
   margin: 0em;
 }
 
@@ -89,11 +94,23 @@ h3{
   border-style: none;
   display: flex;
   justify-content: space-between;
+  /* padding: 0px 10px; */
 }
+
+
 
 /* light to dark
 F6F6F8
 9DD0DA
 71A5D6
 67ADD9
-1C7ABF */
+1C7ABF 
+
+
+#5680E9 bright blue
+#84CEEB lightest blue
+#5AB9E1 med blue
+#C1C8E4 lavender
+#8860D0 purple
+
+*/
