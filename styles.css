@@ -78,7 +78,7 @@ h5{
 
 
 div {
-  border-style: double;
+  /* border-style: double; */
   border-width: 2px;
   border-radius: 3px;
   border-color: rgb(209, 239, 253);
