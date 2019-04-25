@@ -14,7 +14,8 @@ body{
 }
 
 h1 {
-  color: #0496FF;
+  /* color: #0496FF; */
+  color: #027BCE;
   font-family: 'Lobster Two', cursive;
   font-size: 1.5cm;
   margin: 0px;
