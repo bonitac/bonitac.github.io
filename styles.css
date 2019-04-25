@@ -24,7 +24,8 @@ h1 {
 .container-background {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(209, 239, 253);
+  /* background-color: rgb(209, 239, 253); */
+  border-style: dashed;
   border-radius: 3px;
   margin: 0px;
 }
@@ -86,11 +87,22 @@ div {
   padding: 2px;
 }
 
-h2{
-  font-family: 'Lobster Two', cursive;
-  color: #027BCE;
-  margin: 1px 2px 2px;
-  font-size: 1.85em;
+
+h2 {
+  width: 100%; 
+  text-align: left; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  /* margin: 10px 0 20px;  */
+} 
+
+h2 span { 
+   background:#fff; 
+   padding:0 10px; 
+   font-family: 'Lobster Two', cursive;
+    color: #027BCE;
+    /* margin: 1px 2px 2px; */
+    font-size: 1.85em;
 }
 
 h3{
